@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastrostyle.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    </div>
+    <div class="container">
+        <div class="form-image">
+            <img src="imgs/undraw_social_sharing_re_pvmr.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Curso">Curso</label>
+                        <input id="Curso" type="text" name="Curso" placeholder="Digite seu Curso" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="city">Cidade</label>
+                        <input id="city" type="tel" name="city" placeholder="Digite sua Cidade de Origem" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                           <select name="generos" id="generos">
+                            <option value="none"> </option>
+                               <option value="Masculino">Masculino</option>
+                               <option value="Feminino">Feminino</option>
+                               <option value="Indefinido">Indefinido</option>
+                               <option value="Prefiro não Declarar">Prefiro näo declarar</option>
+                           </select>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <a href="index.html>"><button class="Cadastro" id="CD">Cadastrar </button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="cadastrojava.js"></script>
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          myLandbot = new Landbot.Popup({
+            configUrl: 'https://landbot.site/v3/H-1287893-5XGOVKTY3IAUQK0T/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+</body>
+
+</html>

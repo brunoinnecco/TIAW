@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guru do Estágio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+  <header class="cabecalho">
+
+    <nav>
+      <a class="logo" href="index.html"><img src="logo.png" alt=""></a>
+
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a class="qqr" href="plataformas.html">Plataformas facilitadoras</a></li>
+        <li><a class="qqr" href="videoexp.html">Vídeos e experiências</a></li>
+        <li><a class="qqr" href="curriculo.html">Monte seu currículo</a></li>
+        <li><a class="btm" href="cadastro.html">Cadastro</a></li>
+        <li><a class="btm" href="login.html">Login</a></li>
+      </ul>
+
+    </nav>
+
+    <img class="destaque" src="kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="">
+
+  </header>
+
+
+  <section class="sec1">
+
+
+
+    <div class="titulo">
+      <h1>Nossas Ferramentas</h1>
+        <div class="dclinha"></div>
+          <div class="fileira">
+            <div class="coluna">
+              <img class="img-col" src="christin-hume-mfB1B1s4sMc-unsplash.jpg" alt="">
+              <h4>Plataformas Facilitadoras</h4>
+              <p>Aqui te mostramos grandes plataformas existentes que auxiliam no processo de acesso a uma vaga de estágio.</p>
+              <a href="plataformas.html" class="btm">Saiba mais</a>
+            </div>
+            <div class="coluna">
+              <img class="img-col" src="jason-goodman-0K7GgiA8lVE-unsplash.jpg" alt="">
+              <h4>Videos e Experiências</h4>
+              <p>Página com uma lista de videos que ensinam passo a passo e métodos de diversas etapas do processo de acesso ao estágio. </p>
+              <a href="videoexp.html" class="btm">Saiba mais</a>
+            </div>
+            <div class="coluna">
+              <img class="img-col" src="gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg" alt="">
+              <h4>Monte seu currículo</h4>
+              <p>Aqui mostramos os melhores templates e plataformas para criar o seu currículo</p>
+              <a href="curriculo.html" class="btm">Saiba mais</a>
+            </div>
+            
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <footer> Guru do estágio © 2022 <img id="puc" src="Imagem1.png" alt=""></footer>
+
+
+
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener('mouseover', initLandbot, {
+      once: true
+    });
+    window.addEventListener('touchstart', initLandbot, {
+      once: true
+    });
+    var myLandbot;
+
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.addEventListener('load', function () {
+          myLandbot = new Landbot.Popup({
+            configUrl: 'https://landbot.site/v3/H-1287893-5XGOVKTY3IAUQK0T/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+  </script>
+
+</body>
+
+</html>
